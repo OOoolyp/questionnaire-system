@@ -1,0 +1,44 @@
+# Python caches and test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Local environments and credentials (keep shareable examples)
+.env
+.env.*
+!.env.example
+!.env.sample
+.venv/
+venv/
+env/
+
+# Local editor and operating-system files
+/.vscode/
+/.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+~$*
+
+# Runtime logs and MongoDB storage files
+*.log
+*.log.*
+*.wt
+WiredTiger*
+mongod.lock
+storage.bson
+
+# Temporary document QA and generated duplicate submission archive
+/.文档校验/
+/第一阶段提交文档.zip
+
+# JPG images and Word documents (any directory, case-insensitive extension)
+*.[jJ][pP][gG]
+*.[dD][oO][cC][xX]
+*.pdf
+*.png
