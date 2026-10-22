@@ -1,4 +1,4 @@
-# 问卷系统后端
+# 问卷系统第一阶段
 
 技术栈：conda base、Python、FastAPI、PyMongo、MongoDB；正式前端使用无需构建的HTML/CSS/JavaScript，与API同源。
 
@@ -31,10 +31,6 @@ python -m uvicorn app.main:app --reload --host 127.0.0.1 --port 8000
 $env:MONGODB_URI = "mongodb://localhost:27017"
 $env:MONGODB_DATABASE = "questionnaire"
 ```
-
-`JWT_SECRET` 可设为至少32字节的随机密钥，不应提交到 Git 或与他人共享。
-未设置时，每次启动自动生成临时密钥，因此重启服务后旧令牌失效，需要重新登录。
-Access Token 使用 HS256 签名的 JWT，有效期30分钟。
 
 ## 接口清单
 
