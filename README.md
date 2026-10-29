@@ -171,13 +171,8 @@ frontend/
   src/shared/             请求、选题、表单、链接解析与未保存保护
 scripts/                  基础演示及完整成果账号生成脚本
 tests/backend/            后端、真实MongoDB集成测试及展示夹具核对
-tests/frontend/           前端纯逻辑测试
-docs/submission/          第一阶段提交文档
+      frontend/           前端纯逻辑测试
 docs/submission_phase2/   第二阶段系统、数据库、API、逻辑、测试及报告
-docs/implementation/      分阶段实现记录与展示操作说明
-var/                      本地生成清单和运行日志，忽略Git提交
 requirements.txt          后端运行依赖
 requirements-dev.txt      运行依赖及测试、生成脚本所需依赖
 ```
-
-数据库文件位于MongoDB的dbpath，不在var目录。其余文档入口见[文档导航](docs/README.md)，目录约定见[项目结构说明](docs/project-structure.md)。
