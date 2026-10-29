@@ -35,10 +35,17 @@ storage.bson
 
 # Temporary document QA and generated duplicate submission archive
 /.文档校验/
-/第一阶段提交文档.zip
+/docs/archive/*.zip
+/docs/design/*
+/docs/design/*
+/docs/implementation/*
+/docs/submission/*
 
 # JPG images and Word documents (any directory, case-insensitive extension)
 *.[jJ][pP][gG]
 *.[dD][oO][cC][xX]
 *.pdf
 
+
+# Retained local demo manifest (no tokens)
+/var/

@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light">
   <title>问序 · 问卷工作台</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="assets/styles.css?v=3">
 </head>
 <body>
   <div id="app"><div class="loading">正在打开工作空间…</div></div>
@@ -24,6 +24,6 @@
       }
     });
   </script>
-  <script>import("./app.js?v=2").catch(function(error){document.querySelector("#app").textContent="页面脚本加载失败："+error.message;});</script>
+  <script>import("./src/app.js?v=9").catch(function(error){document.querySelector("#app").textContent="页面脚本加载失败："+error.message;});</script>
 </body>
 </html>
